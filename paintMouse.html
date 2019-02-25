@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dibujando con el mouse</title>
+    <style>
+      body{
+        background-color: #AFFA;
+      }
+      #area_de_dibujo{
+        margin: 50px;
+        background-color: white;
+        display: block;
+      }
+      .colorButton{
+        width: 20px;
+        height: 20px;
+      }
+      #red{
+        background-color: red;
+      }
+      #green{
+        background-color: green;
+      }
+      #yellow{
+        background-color: yellow;
+      }
+      #blue{
+        background-color: blue;
+      }
+      #pink{
+        background-color: pink;
+      }
+      #purple{
+        background-color: purple;
+      }
+    </style>
+</head>
+<body>
+    <canvas width='300' height='300' id='area_de_dibujo'></canvas>
+    <button id='red' class='colorButton'></button>
+    <button id='green' class='colorButton'></button>
+    <button id='yellow' class='colorButton'></button>
+    <button id='blue' class='colorButton'></button>
+    <button id='pink' class='colorButton'></button>
+    <button id='purple' class='colorButton'></button>
+    <p>Selecciona un color y mueve el mouse para dibujar</p>
+    <button id='botoncito'>Borrar el dibujo</button>
+    <script src="mouse.js"></script>
+</body>
+</html>
